@@ -1,0 +1,1690 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ARToggle
+    - FogController
+    - Google.Maps.Demos.Utilities.JoystickButton
+    - Google.Maps.Demos.Utilities.JoystickController
+    - Google.Maps.Examples.BasicExample
+    - Google.Maps.Examples.LatLngPrefabStampingExample
+    - Google.Maps.Examples.Minimap
+    - Google.Maps.Examples.Shared.ApiKeyChecker
+    - Google.Maps.Examples.Shared.CameraController
+    - Google.Maps.Examples.Shared.DynamicMapsService
+    - Google.Maps.Examples.Shared.GyroController
+    - Google.Maps.Examples.Shared.InstructionsHandler
+    - Google.Maps.Examples.Shared.ZoomPinch
+    - Google.Maps.Examples.TerrainExample
+    - Google.Maps.Scripts.DeviceCountryProvider
+    - InfoPanelReference
+    - ObjectInformation
+    - ObjectSpawner
+    - PlacementController
+    - ReadCSV
+    - SetYaxisasZero
+    - UIManager
+    - WeatherController
+    - Weather_SoundFade
+    Google.Maps.dll:
+    - Google.Maps.MapsService
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARCameraBackground
+    - UnityEngine.XR.ARFoundation.ARCameraManager
+    - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.ARPlaneManager
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
+    - UnityEngine.XR.ARFoundation.ARSession
+    - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/TableTopMap.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
+      Script: {instanceID: 11316}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11320}
+    - Class: 114
+      Script: {instanceID: 11322}
+    - Class: 114
+      Script: {instanceID: 11326}
+    - Class: 114
+      Script: {instanceID: 11328}
+    - Class: 114
+      Script: {instanceID: 11330}
+    - Class: 114
+      Script: {instanceID: 11410}
+    - Class: 114
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 11498}
+    - Class: 114
+      Script: {instanceID: 11504}
+    - Class: 114
+      Script: {instanceID: 11520}
+    - Class: 114
+      Script: {instanceID: 11576}
+    - Class: 114
+      Script: {instanceID: 11666}
+    - Class: 114
+      Script: {instanceID: 11696}
+    - Class: 114
+      Script: {instanceID: 11840}
+    - Class: 114
+      Script: {instanceID: 12000}
+    - Class: 114
+      Script: {instanceID: 12064}
+    - Class: 114
+      Script: {instanceID: 12072}
+    - Class: 114
+      Script: {instanceID: 12076}
+    - Class: 114
+      Script: {instanceID: 12096}
+    - Class: 114
+      Script: {instanceID: 12134}
+    - Class: 114
+      Script: {instanceID: 12194}
+    - Class: 114
+      Script: {instanceID: 12224}
+    - Class: 114
+      Script: {instanceID: 12264}
+    - Class: 114
+      Script: {instanceID: 12322}
+    - Class: 114
+      Script: {instanceID: 12390}
+    - Class: 114
+      Script: {instanceID: 12518}
+    - Class: 114
+      Script: {instanceID: 12556}
+    - Class: 114
+      Script: {instanceID: 12594}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 12842}
+    - Class: 114
+      Script: {instanceID: 12852}
+    - Class: 114
+      Script: {instanceID: 12948}
+    - Class: 114
+      Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13134}
+    - Class: 114
+      Script: {instanceID: 13150}
+    - Class: 114
+      Script: {instanceID: 13206}
+    - Class: 114
+      Script: {instanceID: 13350}
+    - Class: 114
+      Script: {instanceID: 13418}
+    - Class: 114
+      Script: {instanceID: 13430}
+    - Class: 114
+      Script: {instanceID: 13492}
+    - Class: 114
+      Script: {instanceID: 13528}
+    - Class: 114
+      Script: {instanceID: 13682}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13728}
+    - Class: 114
+      Script: {instanceID: 13888}
+    - Class: 114
+      Script: {instanceID: 14008}
+    - Class: 114
+      Script: {instanceID: 14026}
+    - Class: 114
+      Script: {instanceID: 14038}
+    - Class: 114
+      Script: {instanceID: 14072}
+    - Class: 114
+      Script: {instanceID: 14090}
+    - Class: 114
+      Script: {instanceID: 14092}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 210
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 27e38fa30f067ba7a5e64b3b290e0acf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CompassAltimeterUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 35f62a8d11eff214483ecd7d6e51c3cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: CameraRigController
+  - hash:
+      serializedVersion: 2
+      Hash: b4fc42b020df4b67385e61ff21d513cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: b685632295dade37c24ef21d66363f23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectInformation
+  - hash:
+      serializedVersion: 2
+      Hash: 9663f9b15efcfe62ec6225824dd3e013
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Base
+  - hash:
+      serializedVersion: 2
+      Hash: 14fe41c086dcf9bb183c4e3aaeb850cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: BaseMapLoader
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: NineSlicing
+  - hash:
+      serializedVersion: 2
+      Hash: 71c56eade08f7f2a3bbe113a409950d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Minimap
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_SoundFade
+  - hash:
+      serializedVersion: 2
+      Hash: a0efc5da8b572c5b769a47b32ee7500c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Vehicle
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: c9baa31215c788aab51c6483098602b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: ZoomPinch
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9c848a07ac7d2d1ca57673c0ca0dca8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: InstructionsButton
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1575f7c9f61dc78976929648fd424452
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: PathFindingExample
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 06d9b99edb97d564471e73c64235e18e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: AddingComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: be87feea7f2a5600b6cc740544938f1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Sun
+  - hash:
+      serializedVersion: 2
+      Hash: 234d407605354852c48e57df17c9a1c6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 4570c29e9f77abacad62f8c16c7ba7f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: RoadLatticeNodesVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycastManager
+  - hash:
+      serializedVersion: 2
+      Hash: f588281296a1684244f1ebb564d3c364
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: ActionTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Demos.Utilities
+    className: JoystickButton
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a183c1ba70a0c1ec2b7a9bda70905395
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SteeringController
+  - hash:
+      serializedVersion: 2
+      Hash: c8253fd88c758baaa7edcb41c1b7b5de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SateliteHudUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 5fcad8a69b9d7cb5c544062d2559f784
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Labeller
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Parapets
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b3101087f7a365534ed6057d5aa5b8a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MinimapExample
+  - hash:
+      serializedVersion: 2
+      Hash: cdc4aeecd4a66c06556e4b74aabb9cda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: ModeledStructureConfigView
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5c55cb7b3151ce240452eb85500d32
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 203bf74d4b4c9cd2f2216a04bcb1e9f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: EditTimePreviewExample
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: a5fe18c07f9661606abf626765ab9666
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: CameraFollower
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1103fb0758976355cdf9b7d5ce9cb7e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARReferencePoint
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: da45f6e22076cefbd76a55a3d553ba6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToD_Base
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: be0edc5c0ecc6b59e107d406786530a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: DayAndNight
+  - hash:
+      serializedVersion: 2
+      Hash: 287684e21e5b250a7dc0a157a2d383cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: DynamicMapsService
+  - hash:
+      serializedVersion: 2
+      Hash: 20cab87f99d6b64ce81342957549b064
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SegmentConfigView
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Scripts
+    className: DeviceCountryProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 35f62a8d11eff214483ecd7d6e51c3cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 4dc40d97c2031d959326f0cfbe4e98f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReadCSV
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: AreaWaterComponent
+  - hash:
+      serializedVersion: 2
+      Hash: f1b5a24fcdb36b690404bbbbd226f56a
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Settings
+    className: AreaWaterStyleSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity.Attribution
+    className: AttributionRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: b7c391ec75ff89b03cfd97e222d3a385
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity.Attribution
+    className: AttributionStyle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: ExtrudedStructureComponent
+  - hash:
+      serializedVersion: 2
+      Hash: b3975444f508188f0fedca5cff70da06
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Settings
+    className: ExtrudedStructureStyleSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Impressions
+    className: ImpressionsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity.Intersections
+    className: IntersectionComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: LineWaterComponent
+  - hash:
+      serializedVersion: 2
+      Hash: c4780fbd982c4cf5e677695a3a5fa27a
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Settings
+    className: LineWaterStyleSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d2d1a629844acd81297f0a16a1940c56
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Loading
+    className: MapLoader
+  - hash:
+      serializedVersion: 2
+      Hash: e1ffed2157dd84bd75f7b0095986a9c5
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps
+    className: MapsService
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: MetadataRegister
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Logging
+    className: MetricsSampler
+  - hash:
+      serializedVersion: 2
+      Hash: f7ab522494dbbc032e1891ace4ef7731
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Loading
+    className: MixedZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: ModeledStructureComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 8cecc5889dd26b949f7e7ef53ab09b30
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Settings
+    className: ModeledStructureStyleSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps
+    className: PlayableLocationsService
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: RegionComponent
+  - hash:
+      serializedVersion: 2
+      Hash: f1b5a24fcdb36b690404bbbbd226f56a
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Settings
+    className: RegionStyleSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Unity
+    className: SegmentComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 198faa3e5dc86011401f8a9dccfedad9
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Settings
+    className: SegmentStyleSettings
+  - hash:
+      serializedVersion: 2
+      Hash: eb1682e5969ef35287f4b7e5fc48cd7f
+    assemblyName: Google.Maps.dll
+    namespaceName: Google.Maps.Feature.Style.Attachment
+    className: StyleAttachment
+  - hash:
+      serializedVersion: 2
+      Hash: e8733e39efa851172df1c9eaef062265
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: a3b4ada579e04598cb19b4d3ceba0926
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeatherController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: TargetMovementController
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFace
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 43e3240328438b2398685a0dbd39c611
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: RegionConfigView
+  - hash:
+      serializedVersion: 2
+      Hash: 357b891fabce5c12885da58f74344cc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Demos.Utilities
+    className: JoystickController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 6cd4fe417d95f82f0fabc858adc8c20d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: FencingExample
+  - hash:
+      serializedVersion: 2
+      Hash: 8f1e591808db709cb76cb7d85cb9a8d7
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: fa04a8453ab2e5fadc4aa0281098eb69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FogController
+  - hash:
+      serializedVersion: 2
+      Hash: b41a1545a8746a66dd0dea5c22d9a2b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Snow
+  - hash:
+      serializedVersion: 2
+      Hash: 9b342a247f3d6a4fc7426a323b7a95f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: EmissionController
+  - hash:
+      serializedVersion: 2
+      Hash: 961a78663227e3c880483d2851ed6560
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 2a8760a582366fa76031d41b08c69e23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SearchByPlaceIdUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: be87feea7f2a5600b6cc740544938f1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Cloudy
+  - hash:
+      serializedVersion: 2
+      Hash: b15c53e7aedf8404b8eee7431c3c7f3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: BuildingTexturer
+  - hash:
+      serializedVersion: 2
+      Hash: 4632a1062ac8865f91f6bdfe3c0ff90c
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1181e3e208da6d5185f4b2daab76a098
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: LightFader
+  - hash:
+      serializedVersion: 2
+      Hash: 16176b293b93cb686a0d841677e0f8bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: GyroController
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: BuildingLabelsCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: TrafficSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3381be932270e3e1f6a495184b3eeb54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: d3c9a104b32ad7274eb2dd91d4664057
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToD_Debug
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 78e3aa5f1a0f960669a203016d72cda3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: BuildingSquashing
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloud
+  - hash:
+      serializedVersion: 2
+      Hash: 8f38f1b78e56f1455f99610489501362
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: BuildingBorders
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 42eede962fc059a6039ecc16a8caf3a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: URPExample
+  - hash:
+      serializedVersion: 2
+      Hash: 26fe8d64d18a6adb64611d959c11fe05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: FollowCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: c201b03dd1d692201afff6d026d30920
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MissileBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4a16781cddfadf6b1ab35592d2b1851d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f55ff13226afce64d1a7ba998be5cbd5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Thunderstorm
+  - hash:
+      serializedVersion: 2
+      Hash: f3c15053775b306286f03dcec18a9779
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: PrefabReplacement
+  - hash:
+      serializedVersion: 2
+      Hash: 552fda29c6c7fbc3af59cb2b466bf39b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: RoadLatticeAIController
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetYaxisasZero
+  - hash:
+      serializedVersion: 2
+      Hash: 8e2b5fbff3b6c1e67985e1256cdedc2b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 70ef09c4606d2c4e7ac285457c296952
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetMeshSortingOrder
+  - hash:
+      serializedVersion: 2
+      Hash: 5e392c3ad710408e061380a5902e16cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Squasher
+  - hash:
+      serializedVersion: 2
+      Hash: ebb4d45941d05f992e5c83ed6471a256
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: BuildingExploder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 2e81534b69a52b341df8b855cb88d665
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SliderController
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8f46ba19ae546a2526de8e92a502a46e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: ObjectFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 8a75ac029f6f3290a997542cf53cacaf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: PathFindingView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: RoadLabelMover
+  - hash:
+      serializedVersion: 2
+      Hash: 982acebdb29318e47aa2d3c2cb7e1539
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImageManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudParticleVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 9147a6059e48ff388014a05c3a93e841
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: DynamicMapsUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: f64fd37da5cb89243ec68b5026d70bb8
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 840e65a413cc46ebbbbf200f4362a70c
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSession
+  - hash:
+      serializedVersion: 2
+      Hash: a893f16726035ab7e5b3ab7ebe34d63d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: ExtrudedStructureConfigView
+  - hash:
+      serializedVersion: 2
+      Hash: 0cfab50a5ec23af57d4d5d1532bc6a6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MapLabeller
+  - hash:
+      serializedVersion: 2
+      Hash: f0786811516f7de8befd7a3e181e567a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8d7be637352de3f509d59b2426bfe885
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: PanelAnimationController
+  - hash:
+      serializedVersion: 2
+      Hash: 7f53c55bd7381a277368ae411ccc9f66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MapsServiceView
+  - hash:
+      serializedVersion: 2
+      Hash: b3993966409570662bc00984083b0a51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementController
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fcc7ae5ff1b0c9cad5865d5b6cee016a
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARReferencePointManager
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 2c3c9c03230f15e9278f5b18b8f64b0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: ListenToDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 6976d4a10480ddf2a238549ff3cf62a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: FloatingOriginUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: eb5c9e90d5e5e95eca9f0bf243698c46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SmoothFollowCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f0cd1d55bd96f8718d24a7f028d6a25d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: PrivateRoads
+  - hash:
+      serializedVersion: 2
+      Hash: ca2a58dd7363525cbd2f65b2a150b41b
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: bc80c98ed19a4cddc227817568e80904
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: VehicleSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 8443e738ec67e83efc39621b7858cb93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MapsStylingEditorView
+  - hash:
+      serializedVersion: 2
+      Hash: d0976f085ee327327a35839ca3cb80f1
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6939772cb3ce775a8e8d99f332534491
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 948191ef4734554ee3c793088a1372ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: BasicExample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Fence
+  - hash:
+      serializedVersion: 2
+      Hash: 16dacd04869a876ea4bea0d1d2e77e34
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: cefc9a365ef4ae458c304ec9d1eb90df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MapFeaturesController
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: ErrorHandling
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: RoadLabelsCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 4d1d64ec7b59b2d2fa104f13e67a6f8b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: TerrainExample
+  - hash:
+      serializedVersion: 2
+      Hash: 48e4e6f5b5436d039358786ba7235998
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToD_Clock
+  - hash:
+      serializedVersion: 2
+      Hash: 7ff377e360ff21acde74cdcff44e4b01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: RoadLatticeCharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: e1c35cdce946e9da77fe80a39c261608
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSessionOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: f0f042258e96e7badf1a748a0b4dcd13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: Intersections
+  - hash:
+      serializedVersion: 2
+      Hash: 9dce1bc2909528fc60d9500113dead16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: Label
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 9b13248cc15c42366dbc08e1c87370a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: AreaWaterConfigView
+  - hash:
+      serializedVersion: 2
+      Hash: d9fb07cabc5e9612eb64bf9cf074c31f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: AttributedRoadLattice
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c4c47a040384f6336f65bb1f85fbf332
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: InstructionsHandler
+  - hash:
+      serializedVersion: 2
+      Hash: da965054f3d53835637802db1a7fc37b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: AmbianceConfigView
+  - hash:
+      serializedVersion: 2
+      Hash: 11f4cefb70df31bd101c61e8ea1a41ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SearchByIdDialog
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc03a501323d00d0037a6b76d25a3ba
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARMeshManager
+  - hash:
+      serializedVersion: 2
+      Hash: bae345e7c61084ec74b03b43e5db7485
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: MixedZoomLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 9cc2f8b5006ac5fe35b7c8bf0d6382cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: ProgressBarUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: d3c9a104b32ad7274eb2dd91d4664057
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Debug
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.Maps.Editor.dll
+    namespaceName: Google.Maps
+    className: MapsServiceEditor
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Google.Maps.Editor.dll
+    namespaceName: Google.Maps
+    className: SdkInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 20d20168517d1c0e098918311aa95bbb
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: LocationFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: FenceChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 01473135d671a71d740e507b04eb93da
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbe
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 33fd73eb25ba4097e2f26f6699573022
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weather_Rain
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 9726bc46e15d44429bd38fb013657f1e
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 14ba8cc4bb2a33fce8c2f396f98d40cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: SimpleViewController
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: MeshCleaner
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 966cfa17369b3f333c384892063a65ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: ed79d5962fb70b5b9d62e272e965154c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: SunAndMoonController
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e78f3a1cb4dc1967fe6273e86dde89ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InfoPanelReference
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c838ba82f61788ac5dcb3bec264600ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples
+    className: LatLngPrefabStampingExample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.Maps.Examples.Shared
+    className: ApiKeyChecker
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/TableTopMap.unity
+  playerPath: C:/Users/ASUS/Desktop/ARMap.apk
