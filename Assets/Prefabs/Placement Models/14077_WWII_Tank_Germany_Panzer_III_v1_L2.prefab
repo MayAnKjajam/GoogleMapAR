@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1056410831232709183}
   - component: {fileID: 658538681058084978}
   - component: {fileID: 424165890652661894}
+  - component: {fileID: -3409283473093799115}
   m_Layer: 0
   m_Name: 14077_WWII_Tank_Germany_Panzer_III_v1_L2
   m_TagString: Untagged
@@ -26,13 +27,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424165890652661893}
   m_LocalRotation: {x: -0.037007138, y: -0.7061378, z: -0.7061378, w: 0.037007138}
-  m_LocalPosition: {x: 0.3134, y: -0.0037150006, z: -0.18170004}
+  m_LocalPosition: {x: 0.3849436, y: 0, z: -0.63402426}
   m_LocalScale: {x: 0.006, y: 0.006, z: 0.006}
   m_Children:
   - {fileID: 5726911147229296633}
   - {fileID: 143385306648912693}
   - {fileID: 6802556619241854797}
   - {fileID: 2981198796093033333}
+  - {fileID: 3493307450701663624}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: -174, z: 0}
@@ -77,6 +79,29 @@ CapsuleCollider:
   m_Height: 3.6400015
   m_Direction: 0
   m_Center: {x: 0.06553214, y: -2.7792896e-10, z: 1.2283621}
+--- !u!114 &-3409283473093799115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424165890652661893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ced5ca838088a149b7d01690257129d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaTop: 32.4643889986413
+  areaBottom: 32.3745574702293
+  areaLeft: 75.5641127027608
+  areaRight: 75.6705297840556
+  areaWidth: 10000
+  areaLength: 10000
+  forceMoveToLatLon: 0
+  destinationLat: 32.3853
+  destinationLon: 75.6419
+  lockToCenter: 0
+  scaleFactor: 0.001666666
 --- !u!1 &1570327469152290128
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570327469152290128}
   m_LocalRotation: {x: 0.53527635, y: 0.53527635, z: 0.4620381, w: 0.4620381}
-  m_LocalPosition: {x: -1.7, y: -0, z: 2.8}
+  m_LocalPosition: {x: -1.7, y: -0, z: 2.843}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1056410831232709183}
@@ -160,6 +185,100 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570327469152290128}
   m_Enabled: 1
+--- !u!1 &7362099689525537071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3493307450701663624}
+  - component: {fileID: 517687793487758357}
+  - component: {fileID: 5638286485771191277}
+  - component: {fileID: 7531406340586855232}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3493307450701663624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7362099689525537071}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: -0, y: -0.311, z: 0.835}
+  m_LocalScale: {x: 5, y: 3.87, z: 5}
+  m_Children: []
+  m_Father: {fileID: 1056410831232709183}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &517687793487758357
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7362099689525537071}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5638286485771191277
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7362099689525537071}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3cecf7d2ed12001479f1483cc54c1e95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &7531406340586855232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7362099689525537071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7819522822699099305
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +305,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7819522822699099305}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0, z: 0.043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1056410831232709183}
@@ -265,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7910878382149122439}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0, z: 0.043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1056410831232709183}
@@ -344,7 +463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8872798001343110982}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0, z: 0.043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1056410831232709183}

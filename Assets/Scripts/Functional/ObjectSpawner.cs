@@ -13,13 +13,20 @@ public class ObjectSpawner : MonoBehaviour
     public List<string> UniqueID;
     public List<string> UniqueEntityName;
     public TextMeshProUGUI DebugText;
+    public Transform ParentSpawner;
     // Start is called before the first frame update
     void Start()
     {
+    }
+
+    private void OnEnable()
+    {
+
         data = GameObject.Find("DataManager").GetComponent<ReadCSV>();
         FillUniqueID();
         index = UniqueID.Count;
         StartCoroutine(PlaceObject(0));
+        DebugText.text = data.gameObject.name+"/n";
     }
     public void FillUniqueID()
     {
@@ -39,6 +46,7 @@ public class ObjectSpawner : MonoBehaviour
             {
                 UniqueID.Add(data.ID[i]);
                 UniqueEntityName.Add(data.EntityName[i]);
+                DebugText.text = DebugText.text + data.ID[i] + "/n";
             }
         } 
     }
@@ -52,28 +60,28 @@ public class ObjectSpawner : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             if (UniqueEntityName[i] == "Observer")
             {
-                g = GameObject.Instantiate(Observer, this.transform);
-                g.transform.position = new Vector3(Random.Range(-0.4f, 0.4f),0f, Random.Range(-0.4f, 0.4f));
+                g = GameObject.Instantiate(Observer, ParentSpawner);
+                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f),0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Armoured Vehicle")
             {
-                g = GameObject.Instantiate(ArmouredVehiche, this.transform);
-                g.transform.position = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                g = GameObject.Instantiate(ArmouredVehiche, ParentSpawner);
+                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Missile")
             {
-                g = GameObject.Instantiate(Missile, this.transform);
-                g.transform.position = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                g = GameObject.Instantiate(Missile, ParentSpawner);
+                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Infantry Fighting Vehicle")
             {
-                g = GameObject.Instantiate(Infantaryvehicle, this.transform);
-                g.transform.position = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                g = GameObject.Instantiate(Infantaryvehicle, ParentSpawner);
+                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Air Defence")
             {
-                g = GameObject.Instantiate(Airdefence, this.transform);
-                g.transform.position = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                g = GameObject.Instantiate(Airdefence, ParentSpawner);
+                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             
             if (g != null)

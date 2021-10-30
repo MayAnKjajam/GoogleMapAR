@@ -1,0 +1,76 @@
+Terrain Generation Settings
+
+Address: Capri, Italy
+Latitude: 40.5526130679932 Degree
+Longitude: 14.2310763916015 Degree
+NewTerrainGrid: _1
+NewTerrainSizeX: 6000
+NewTerrainSizeZ: 6000
+ConstrainedAspect: True
+NewTerrainPixelError: 2
+AreaSelectionMode: 0
+LatExtents: 6
+LonExtents: 6
+SquareArea: True
+ArbitraryTop: 40.5795625265168
+ArbitraryLeft: 14.195607676769
+ArbitraryBottom: 40.5256636094696
+ArbitraryRight: 14.266545106434
+MapType: 0
+PreviewZoomLevel: 13
+SaveASCII: False
+SaveRAW: True
+SaveTIFF: False
+TerrainResolution: 512
+TerrainSmooth: 0
+ElevationExaggeration: 1.5
+GridTerrain: 4096
+ImageGridPerTerrain: 4
+ImageResolution: 1024
+TextureTerrain: 0
+Quality: 100
+ImportCompression: False
+AutoScale: False
+Anisotropic: 4
+AlphaResolution: 512
+AsyncCalls: 50
+EngineResolutionMode: 0
+ResolutionPresetSection: False
+AvailableDataSection: True
+NewTerrainSection: False
+LocationSection: False
+AreaSizeSection: False
+InteractiveMapSection: False
+HeghtmapDownloaderSection: True
+SaveElevationSection: False
+ImageDownloaderSection: False
+FailedDownloaderSection: False
+SplitSizeNew: 1
+TotalTerrainsNew: 1
+UpdateArea: True
+ShowArea: True
+ShowCross: True
+SquareArea: True
+SmoothBlendIndex: 0
+SmoothBlend: 0.9
+VisualMapsSection: False
+VisualMapIndex: 2
+AspectIsActive: False
+ElevationIsActive: False
+HillshadeMDIsActive: False
+SlopeIsActive: False
+VisualMapResolution: 4096
+VisualFormat: JPG
+SlopeZFactor: 0.75
+HillshadeAltitude: 50
+HillshadeAzimuth: 150
+HillshadeZFactor: 1
+AutomaticSunPosition: True
+AnalysisPreviewIndex: 0
+ProjectorColor: 0 0 0 1
+ProjectorStrength: 2
+ImportAtEnd: True
+ServerSection: True
+ServerGrid: _32x32
+WorldMode: 0
+formatMode: 0

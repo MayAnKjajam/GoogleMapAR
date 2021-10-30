@@ -47,7 +47,7 @@ namespace Google.Maps.Demos.Utilities {
     public float MaxVerticalSpeed = 200f;
     // Reference to camera (a child of the camera rig)
     private Camera Camera;
-
+        public Transform Plane;
     #endregion
 
     /// <summary>
@@ -58,7 +58,8 @@ namespace Google.Maps.Demos.Utilities {
     /// </summary>
     private void Start() {
       InputDirection = Vector3.zero;
-
+            MinAltitude = Plane.position.y+0.05f;
+            MaxAltitude = Plane.position.y + 1f;
       // Hide by default
       gameObject.transform.parent.gameObject.SetActive(false);
 

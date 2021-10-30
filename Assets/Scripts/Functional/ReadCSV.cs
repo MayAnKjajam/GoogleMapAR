@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ReadCSV : MonoBehaviour
 {
@@ -14,18 +15,20 @@ public class ReadCSV : MonoBehaviour
     public List<string> Heading;
     public List<string> Roll;
     public List<string> Altitude;
-
-
+    public Text Filecontent;
+    public string DataString;
     // Start is called before the first frame update
     void Awake()
     {
+      
         ReadcsvFile();
     }
     void ReadcsvFile()
     {
         //StreamReader Streamrd = new StreamReader(Path.Combine(Application.streamingAssetsPath, "EDD_Lakhanpur.csv"));
-        TextAsset txt = (TextAsset)Resources.Load("EDD_Lakhanpur", typeof(TextAsset));
-        string filecontent = txt.text;
+        //TextAsset txt = (TextAsset)Resources.Load("EDD_Lakhanpur", typeof(TextAsset));
+        string filecontent = Filecontent.text;
+        //Filecontent.text = filecontent;
         byte[] byteArray = Encoding.UTF8.GetBytes(filecontent);
         MemoryStream stream = new MemoryStream(byteArray);
         StreamReader Streamrd = new StreamReader(stream);
@@ -54,6 +57,8 @@ public class ReadCSV : MonoBehaviour
             Altitude.Add(data_val[7]);
             Heading.Add(data_val[8]);
         }
+
+      
 
     }
 

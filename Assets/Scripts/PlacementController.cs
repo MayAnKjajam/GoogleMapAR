@@ -64,7 +64,7 @@ public class PlacementController : MonoBehaviour
     private void PlaceARObejct()
     {
         objectInstance = Instantiate(ObjectToSpawn, target);
-        objectInstance.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+        objectInstance.transform.SetPositionAndRotation(new Vector3(PlacementPose.position.x-0.5f, PlacementPose.position.y, PlacementPose.position.z - 0.5f), PlacementPose.rotation);
         //ObjectToSpawn.SetActive(true);
         //objectInstance = ObjectToSpawn;
     }

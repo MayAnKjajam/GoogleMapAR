@@ -1,0 +1,76 @@
+Terrain Generation Settings
+
+Address: Horseshoe Bend, Arizona
+Latitude: 36.87916 Degree
+Longitude: -111.5105 Degree
+NewTerrainGrid: _2x2
+NewTerrainSizeX: 12000
+NewTerrainSizeZ: 12000
+ConstrainedAspect: True
+NewTerrainPixelError: 5
+AreaSelectionMode: 0
+LatExtents: 12
+LonExtents: 12
+SquareArea: True
+ArbitraryTop: 36.9330589170472
+ArbitraryLeft: -111.577881816826
+ArbitraryBottom: 36.8252610829528
+ArbitraryRight: -111.443118183174
+MapType: 0
+PreviewZoomLevel: 12
+SaveASCII: False
+SaveRAW: False
+SaveTIFF: False
+TerrainResolution: 512
+TerrainSmooth: 1
+ElevationExaggeration: 1
+GridTerrain: 4096
+ImageGridPerTerrain: 1
+ImageResolution: 2048
+TextureTerrain: 0
+Quality: 100
+ImportCompression: False
+AutoScale: False
+Anisotropic: 4
+AlphaResolution: 512
+AsyncCalls: 50
+EngineResolutionMode: 0
+ResolutionPresetSection: True
+AvailableDataSection: True
+NewTerrainSection: True
+LocationSection: True
+AreaSizeSection: True
+InteractiveMapSection: True
+HeghtmapDownloaderSection: True
+SaveElevationSection: False
+ImageDownloaderSection: True
+FailedDownloaderSection: False
+SplitSizeNew: 2
+TotalTerrainsNew: 4
+UpdateArea: True
+ShowArea: True
+ShowCross: True
+SquareArea: True
+SmoothBlendIndex: 0
+SmoothBlend: 0.9
+VisualMapsSection: False
+VisualMapIndex: 2
+AspectIsActive: False
+ElevationIsActive: False
+HillshadeMDIsActive: False
+SlopeIsActive: False
+VisualMapResolution: 4096
+VisualFormat: JPG
+SlopeZFactor: 0.75
+HillshadeAltitude: 39.99999
+HillshadeAzimuth: 150
+HillshadeZFactor: 1
+AutomaticSunPosition: True
+AnalysisPreviewIndex: 0
+ProjectorColor: 0 0 0 1
+ProjectorStrength: 2
+ImportAtEnd: True
+ServerSection: True
+ServerGrid: _16x16
+WorldMode: 0
+formatMode: 0

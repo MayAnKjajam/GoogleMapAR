@@ -1,0 +1,36 @@
+TerraLand-MapsMaker Filters and Settings
+
+FiltersNO.: 4
+Name: Filter 1
+Color: 0.4313726 0.4392157 0.3529412 0.3529412
+Radius: 50
+MapColor: _Red
+Name: Filter 2
+Color: 0.3254902 0.345098 0.2588235 0.2588235
+Radius: 50
+MapColor: _Green
+Name: Filter 3
+Color: 0.8156863 0.7529412 0.6235294 0.6235294
+Radius: 50
+MapColor: _Blue
+Name: Filter 4
+Color: 0.509804 0.509804 0.4156863 0.4078431
+Radius: 50
+MapColor: _Alpha
+ShadowColor: 0.1011111 0.13 0.1227778 0.9019608
+ShadowColorBrightness: 13
+HealingBlockSize: 128
+ErodeSize: 5
+ColormapSmoothness: 19
+ColormapSharpness: 20
+SplatmapFormat: 0
+LandCoverAuto: 0
+FiltersCount: 4
+ColorDamping: 16
+ColorRadius: 50
+OutputOrdering: 0
+OutputSmoothness: 3
+ProcessingSection: True
+ShadowSection: False
+ColormapSection: False
+LandcoverSection: True

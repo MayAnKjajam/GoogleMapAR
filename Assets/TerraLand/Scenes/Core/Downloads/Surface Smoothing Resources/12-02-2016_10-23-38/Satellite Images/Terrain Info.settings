@@ -1,0 +1,71 @@
+Terrain Generation Settings
+
+Address: Innere Dorfstrasse 88, 3718 Kandersteg, Switzerland
+Latitude: 46.49473 Degree
+Longitude: 7.674436 Degree
+NewTerrainGrid: _2x2
+NewTerrainSizeX: 8000
+NewTerrainSizeZ: 8000
+ConstrainedAspect: True
+NewTerrainPixelError: 2
+AreaSelectionMode: 0
+LatExtents: 8
+LonExtents: 8
+SquareArea: True
+ArbitraryTop: 46.5306626113648
+ArbitraryLeft: 7.62224032884859
+ArbitraryBottom: 46.4587973886352
+ArbitraryRight: 7.72663167115141
+MapType: 0
+PreviewZoomLevel: 13
+SaveASCII: False
+SaveRAW: False
+SaveTIFF: False
+TerrainResolution: 1024
+TerrainSmooth: 0
+ElevationExaggeration: 1
+GridTerrain: 4096
+ImageGridPerTerrain: 1
+ImageResolution: 32
+TextureTerrain: 0
+Quality: 100
+ImportCompression: False
+AutoScale: False
+Anisotropic: 4
+AlphaResolution: 512
+AsyncCalls: 50
+EngineResolutionMode: 0
+ResolutionPresetSection: True
+AvailableDataSection: False
+NewTerrainSection: False
+LocationSection: True
+AreaSizeSection: True
+InteractiveMapSection: True
+HeghtmapDownloaderSection: True
+SaveElevationSection: False
+ImageDownloaderSection: True
+FailedDownloaderSection: False
+SplitSizeNew: 2
+TotalTerrainsNew: 4
+UpdateArea: True
+ShowArea: True
+ShowCross: True
+SquareArea: True
+SmoothBlendIndex: 0
+SmoothBlend: 0.9
+VisualMapsSection: False
+VisualMapIndex: 2
+AspectIsActive: False
+ElevationIsActive: False
+HillshadeMDIsActive: False
+SlopeIsActive: False
+VisualMapResolution: 4096
+VisualFormat: JPG
+SlopeZFactor: 0.75
+HillshadeAltitude: 50
+HillshadeAzimuth: 150
+HillshadeZFactor: 0.75
+AutomaticSunPosition: True
+AnalysisPreviewIndex: 0
+ProjectorColor: 0 0 0 1
+ProjectorStrength: 1.25

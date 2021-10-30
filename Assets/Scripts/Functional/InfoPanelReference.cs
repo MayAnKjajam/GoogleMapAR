@@ -11,7 +11,8 @@ public class InfoPanelReference : MonoBehaviour
     public TextMeshProUGUI ID, Lat, Log, Head, Pitch, Roll ,Entity;
     GameObject PreviousObj;
     public TMP_Dropdown Dropdown;
-    public GameObject ActiveCamera,HeliCamera,UIHolder, WarningMessage;
+    public GameObject ActiveCamera,HeliCamera,UIHolder, WarningMessage, SpawnerParent;
+    public Slider VisiblitySlider;
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +72,15 @@ public class InfoPanelReference : MonoBehaviour
                 ActiveCamera.SetActive(true);
                 HeliCamera.SetActive(false);
                 UIHolder.SetActive(false);
+                for (int i = 0; i < SpawnerParent.transform.childCount; i++)
+                {
+                    SpawnerParent.transform.GetChild(i).GetComponent<CapsuleCollider>().enabled = false;
+                }
+                RenderSettings.fogStartDistance = -0.8f;
+                RenderSettings.fogEndDistance = 0.7f;
+                VisiblitySlider.minValue = -0.8f;
+                VisiblitySlider.maxValue = 0.69f;
+                VisiblitySlider.value = VisiblitySlider.minValue;
             }
             else
             {
@@ -87,6 +97,15 @@ public class InfoPanelReference : MonoBehaviour
                     ActiveCamera.SetActive(false);
                 }
             }
+            for (int i = 0; i < SpawnerParent.transform.childCount; i++)
+            {
+                SpawnerParent.transform.GetChild(i).GetComponent<CapsuleCollider>().enabled = true;
+            }
+            RenderSettings.fogStartDistance = 0.1f;
+            RenderSettings.fogEndDistance = 1f;
+            VisiblitySlider.minValue = 0.1f;
+            VisiblitySlider.maxValue = 0.9f;
+            VisiblitySlider.value = VisiblitySlider.minValue;
             ActiveCamera = null;
             HeliCamera.SetActive(true);
             UIHolder.SetActive(true);
