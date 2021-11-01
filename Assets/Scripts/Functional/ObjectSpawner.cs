@@ -61,27 +61,27 @@ public class ObjectSpawner : MonoBehaviour
             if (UniqueEntityName[i] == "Observer")
             {
                 g = GameObject.Instantiate(Observer, ParentSpawner);
-                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f),0f, Random.Range(-0.4f, 0.4f));
+                //g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f),0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Armoured Vehicle")
             {
                 g = GameObject.Instantiate(ArmouredVehiche, ParentSpawner);
-                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                //g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Missile")
             {
                 g = GameObject.Instantiate(Missile, ParentSpawner);
-                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                //g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Infantry Fighting Vehicle")
             {
                 g = GameObject.Instantiate(Infantaryvehicle, ParentSpawner);
-                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                //g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             if (UniqueEntityName[i] == "Air Defence")
             {
                 g = GameObject.Instantiate(Airdefence, ParentSpawner);
-                g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
+                //g.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0f, Random.Range(-0.4f, 0.4f));
             }
             
             if (g != null)
@@ -89,7 +89,8 @@ public class ObjectSpawner : MonoBehaviour
                 g.GetComponent<ObjectInformation>().ObjectID = UniqueID[i];
             }//g.GetComponent<ArcGISLocationComponent>().Longitude = float.Parse(data.Longitude[i]);
              //g.GetComponent<ArcGISLocationComponent>().Latitude = float.Parse(data.Latitude[i]);
-
+            g.GetComponent<LatLon2Unity>().destinationLat = double.Parse(data.Longitude[i]);
+            g.GetComponent<LatLon2Unity>().destinationLon = double.Parse(data.Latitude[i]);
             DebugText.text = DebugText.text+"\n"+g.name;
             i++;
             StartCoroutine(PlaceObject(i));

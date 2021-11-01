@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 3660595090138078460}
   - component: {fileID: 5655147168159610050}
   - component: {fileID: 2714323057285636531}
+  - component: {fileID: 2921554328971047616}
   m_Layer: 0
   m_Name: missl
   m_TagString: Untagged
@@ -319,6 +320,29 @@ CapsuleCollider:
   m_Height: 3.6400015
   m_Direction: 0
   m_Center: {x: 0.06553214, y: 4.61, z: 1.2283621}
+--- !u!114 &2921554328971047616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145241825760265798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ced5ca838088a149b7d01690257129d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaTop: 32.4643889986413
+  areaBottom: 32.3745574702293
+  areaLeft: 75.5641127027608
+  areaRight: 75.6705297840556
+  areaWidth: 10000
+  areaLength: 10000
+  forceMoveToLatLon: 1
+  destinationLat: 32.3853
+  destinationLon: 75.6419
+  lockToCenter: 0
+  scaleFactor: 0.001
 --- !u!1 &6867266154487597904
 GameObject:
   m_ObjectHideFlags: 0

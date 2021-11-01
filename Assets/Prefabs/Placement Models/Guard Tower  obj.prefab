@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1445340645106474206}
   - component: {fileID: 2253261082517898853}
   - component: {fileID: 2253261082517898854}
+  - component: {fileID: 1176786741928742426}
   m_Layer: 0
   m_Name: Guard Tower  obj
   m_TagString: Untagged
@@ -76,6 +77,29 @@ CapsuleCollider:
   m_Height: 3.6400015
   m_Direction: 1
   m_Center: {x: 0.06553214, y: 39.21, z: 1.2283621}
+--- !u!114 &1176786741928742426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2253261082517898852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ced5ca838088a149b7d01690257129d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaTop: 32.4643889986413
+  areaBottom: 32.3745574702293
+  areaLeft: 75.5641127027608
+  areaRight: 75.6705297840556
+  areaWidth: 10000
+  areaLength: 10000
+  forceMoveToLatLon: 1
+  destinationLat: 32.3853
+  destinationLon: 75.6419
+  lockToCenter: 0
+  scaleFactor: 0.001
 --- !u!1 &4238633863716913485
 GameObject:
   m_ObjectHideFlags: 0

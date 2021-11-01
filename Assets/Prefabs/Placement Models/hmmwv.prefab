@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 1567758978706182469}
   - component: {fileID: 2200603049775746045}
   - component: {fileID: 2200603049775746044}
+  - component: {fileID: 3192918807527010026}
   m_Layer: 0
   m_Name: hmmwv
   m_TagString: Untagged
@@ -569,6 +570,29 @@ CapsuleCollider:
   m_Height: 56.462154
   m_Direction: 2
   m_Center: {x: -1.3400002, y: 9.35, z: -2.7234592}
+--- !u!114 &3192918807527010026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200603049775746047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ced5ca838088a149b7d01690257129d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaTop: 32.4643889986413
+  areaBottom: 32.3745574702293
+  areaLeft: 75.5641127027608
+  areaRight: 75.6705297840556
+  areaWidth: 10000
+  areaLength: 10000
+  forceMoveToLatLon: 1
+  destinationLat: 32.3853
+  destinationLon: 75.6419
+  lockToCenter: 0
+  scaleFactor: 0.001
 --- !u!1 &2577287020710200042
 GameObject:
   m_ObjectHideFlags: 0

@@ -97,11 +97,11 @@ MonoBehaviour:
   areaRight: 75.6705297840556
   areaWidth: 10000
   areaLength: 10000
-  forceMoveToLatLon: 0
+  forceMoveToLatLon: 1
   destinationLat: 32.3853
   destinationLon: 75.6419
   lockToCenter: 0
-  scaleFactor: 0.001666666
+  scaleFactor: 0.001
 --- !u!1 &1570327469152290128
 GameObject:
   m_ObjectHideFlags: 0
